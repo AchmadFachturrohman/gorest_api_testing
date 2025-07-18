@@ -43,4 +43,4 @@
    `python main.py`<br>
 
 ### 🎬 Running Test
-[![Tutorial Git]( https://img.youtube.com/vi/LJ3vgmBYrJk/hqdefault.jpg )](https://www.youtube.com/watch?v=LJ3vgmBYrJk)
+[![Tutorial Git]( https://img.youtube.com/vi/LJ3vgmBYrJk/maxresdefault.jpg )](https://www.youtube.com/watch?v=LJ3vgmBYrJk)
