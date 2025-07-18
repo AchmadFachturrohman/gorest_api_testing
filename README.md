@@ -28,8 +28,7 @@
    - Running pytest tests on the scenario.py file.
    - Generating an HTML `report.html` from the test results.
 
-
-<br>🔧 **How to Run This Code** <br>
+### 🔧 How to Run This Code <br>
 **Option 1:** Using a Code Editor (e.g., Visual Studio Code)
 1. Clone this repository to your local computer.
 2. Open the project folder in Visual Studio Code or your preferred code editor.
@@ -41,4 +40,7 @@
 1. Clone this repository to your local computer.
 2. Open CMD and navigate to the directory where the repo was downloaded.
 3. Run the script using:
-   `python main.py`
+   `python main.py`<br>
+
+### 🎬 Running Test
+[![Tutorial Git]( https://img.youtube.com/vi/LJ3vgmBYrJk/hqdefault.jpg )](https://www.youtube.com/watch?v=LJ3vgmBYrJk)
