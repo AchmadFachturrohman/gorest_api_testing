@@ -35,10 +35,10 @@
 2. Open the project folder in Visual Studio Code or your preferred code editor.
 3. Open the terminal inside the editor.
 4. Run the script using:
-   `python run.py`
+   `python main.py`
    
 **Option 2:** Using Command Prompt (CMD)
 1. Clone this repository to your local computer.
 2. Open CMD and navigate to the directory where the repo was downloaded.
 3. Run the script using:
-   `python run.py`
+   `python main.py`
