@@ -1,44 +1,44 @@
 # gorest_api_testing
 
-dalam repositori ini terdapat 5 file .py dan file lainnya
 1. `token_manager.py`
    - this code for:
-     - Login otomatis ke GitHub menggunakan Selenium.
-     - Scraping token dari halaman tertentu (kemungkinan halaman akses token GoREST).
-     - Menyimpan token ke file .env agar bisa digunakan oleh automation pipeline.
-     - Menyediakan header Authorization untuk API request.
+     - Automatically log in to GitHub using Selenium.
+     - Scrape the token from a specific page (likely the GoREST access token page).
+     - Save the token to a .env file so it can be used by the automation pipeline.
+     - Provide the Authorization header for API requests.
 2. `login_manager.py`
    - this code for:
-     - Login otomatis ke GitHub menggunakan Selenium.
-     - Scraping token dari halaman web (kemungkinan halaman akses token GoREST).
-     - Menyimpan token ke file .env.
-     - Menyediakan header Authorization untuk digunakan dalam API testing.
-3. `scenario.py`
-   - this code for:
-     Melakukan pengujian otomatis terhadap endpoint https://gorest.co.in/public-api/users menggunakan pytest, dengan skenario:
-     - Create user (positif & negatif)
-     - Get user (positif & negatif)
-     - Update user (positif & negatif)
-     - Delete user (positif & negatif)
-4. `conftest.py`
-   - Kode ini mendefinisikan dua fixture untuk digunakan dalam pengujian API GoREST:
-     - user_payload: Menyediakan data user yang valid untuk test create user.
-     - user_holder: Menyimpan user_id dari user yang berhasil dibuat, agar bisa digunakan di test berikutnya (get, update, delete).
-6. `main.py`
-   - Script ini berfungsi sebagai entry point otomatis untuk:
-     - Scraping token dari GoREST menggunakan TokenManager.
-     - Menjalankan test pytest pada file scenario.py.
-     - Menghasilkan report HTML (report.html) dari hasil test.
-     - Membuka report tersebut di browser secara otomatis.
+     - Automatically log in to GitHub using Selenium.
+     - Scrape the token from a web page (likely the GoREST access token page).
+     - Save the token to a `.env` file.
+     - Provide the Authorization header for use in API testing.
+3. `scenario.py`<br>
+   Perform automated testing on the endpoint https://gorest.co.in/public-api/users using pytest, with the following scenarios:
+   - Create user (positive & negative)
+   - Get user (positive & negative)
+   - Update user (positive & negative)
+   - Delete user (positive & negative)
+4. `conftest.py`<br>
+   This code defines two fixtures for use in GoREST API testing:
+     - `user_payload`: Provides valid user data for the create user test.
+     - `user_holder`: Stores the user_id of the successfully created user, so it can be used in subsequent tests (get, update, delete).
+6. `main.py`<br>
+   This script serves as an automated entry point for:
+   - Scraping the token from GoREST using TokenManager.
+   - Running pytest tests on the scenario.py file.
+   - Generating an HTML `report.html` from the test results.
 
-How to run this code:
-1. Pull this repo to your local computer
-2. Open the folder to visual studio code or your favorite code editor
-3. Open the terminal
-4. Run the main using `python run.py`
 
-or
-
-1. Pull this repo to your local computer
-2. Open CMD and copy the `path` directory of the downloaded repo
-3. Run the code by using `python run.py`
+<br>🔧 **How to Run This Code** <br>
+**Option 1:** Using a Code Editor (e.g., Visual Studio Code)
+1. Clone this repository to your local computer.
+2. Open the project folder in Visual Studio Code or your preferred code editor.
+3. Open the terminal inside the editor.
+4. Run the script using:
+   `python run.py`
+   
+**Option 2:** Using Command Prompt (CMD)
+1. Clone this repository to your local computer.
+2. Open CMD and navigate to the directory where the repo was downloaded.
+3. Run the script using:
+   `python run.py`
