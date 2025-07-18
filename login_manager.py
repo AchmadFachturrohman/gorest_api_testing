@@ -54,7 +54,7 @@ class LoginManager:
                 break
             time.sleep(1)
         else:
-            self.driver.save_screenshot("error_token_page.png")
+            # self.driver.save_screenshot("error_token_page.png")
             raise Exception("Tidak berhasil redirect ke /my-account.")
         
         current_url = self.driver.execute_script("return window.location.href")

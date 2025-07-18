@@ -69,7 +69,7 @@ class GoRESTTokenScraper:
         try:
             token = self._extract_token(driver)
         except Exception as e:
-            driver.save_screenshot("token_scrape_error.png")
+            # driver.save_screenshot("token_scrape_error.png")
             driver.quit()
             raise Exception(f"Gagal scraping token: {str(e)}")
 
