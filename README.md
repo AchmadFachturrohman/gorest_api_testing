@@ -33,14 +33,12 @@
 1. Clone this repository to your local computer.
 2. Open the project folder in Visual Studio Code or your preferred code editor.
 3. Open the terminal inside the editor.
-4. Run the script using:
-   `python main.py`
+4. Run the script using `python main.py` on terminal
    
 **Option 2:** Using Command Prompt (CMD)
 1. Clone this repository to your local computer.
 2. Open CMD and navigate to the directory where the repo was downloaded.
-3. Run the script using:
-   `python main.py`<br>
+3. Run the script using `python main.py`<br>
 
 ### 🎬 Running Test
 [![Tutorial Git]( https://img.youtube.com/vi/LJ3vgmBYrJk/maxresdefault.jpg )](https://www.youtube.com/watch?v=LJ3vgmBYrJk)
